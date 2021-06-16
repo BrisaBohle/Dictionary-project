@@ -32,8 +32,9 @@ let [results, setResults]= useState (null);
             <button className="btn btn-outline-secondary" type="button">mean🧐</button>
           </div>      
         </form>
-        <Results results={results}/>
       </div>
+      <Results results={results}/>
+      
     </div>
   )
 }
