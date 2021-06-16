@@ -9,7 +9,9 @@ function App() {
         <header className="App-header">
           <Dictionary />
         </header>
+
       </div>
+      <footer>This project was coded by <a href="https://brisa-bohle.netlify.app/" target="_blank" rel="noreferrer">Brisa Bøhle</a>, open-sourced on<a href="https://naughty-nightingale-49b26e.netlify.app/" target="_blank" rel="noreferrer"> Netlify</a></footer>
     </div>
   );
 }
