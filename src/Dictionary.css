@@ -1,0 +1,30 @@
+.Dictionary {
+  background: white;
+  width: 1000px;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+.hero-text {
+  color: #ec3369;
+  text-align: center;
+  margin: 20px 0px 30px;
+}
+.Dictionary .search-dictionary {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.Dictionary span {
+  background-color: white;
+
+  font-weight: 500;
+  border-color: #6c757d;
+}
+.Dictionary button {
+  border-color: #6c757d;
+  font-weight: 500;
+}
+
+.Dictionary .input {
+  border-color: #ced4da;
+}

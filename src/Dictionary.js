@@ -16,10 +16,16 @@ export default function Dictionary(){
 
   return(
     <div className="Dictionary">
-      <form onSubmit={handleForm}>
-        <input className="form-control" type="search" onChange={handleKeywordChange}></input>
-        <button className="btn btn-secondary">Search</button>
-      </form>
+      <h2 className="hero-text">Dictionary</h2>
+      <div className="search-dictionary row">
+        <form onSubmit={handleForm}>
+         <div className="input-group mb-3">
+            <span className="input-group-text">What does</span>
+            <input type="search" onChange={handleKeywordChange} className="input form-control" placeholder="it"></input>
+            <button className="btn btn-outline-secondary" type="button" id="button-addon2">mean🧐</button>
+          </div>      
+        </form>
+      </div>
     </div>
   )
 }
