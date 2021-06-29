@@ -36,7 +36,7 @@ if (loaded){
             <form onSubmit={handleSubmit}>
             <div className="input-group mb-3">
               <span className="input-group-text">What does</span>
-              <input type="search" onChange={handleKeywordChange} className="input form-control" placeholder="this"></input>
+              <input type="search" onChange={handleKeywordChange} className="input form-control" placeholder="sunrise"></input>
               <button className="btn btn-outline-secondary" type="button">mean🧐</button>
             </div>      
             </form>
